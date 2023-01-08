@@ -1,0 +1,29 @@
+git adalah sistem kontrol versi terdistribusi gratis dan open source. sistem kontrol versi digunakan untuk melacak riwayat 
+perubahan saat orang dan tim berkolaborasi dalam project bersama. jika kita membuat perubahan pada project, 
+versi project sebelumnya dapat dipulihkan kapan saja.
+
+1. perubahan apa saja yang dilakukan
+2. siapa yang membuat perubahan
+3. kapan 
+
+menambah file ke staging area:
+> git add file1.md file2.md = pilih salah satu file yang akan dirubah
+> git add . = untuk semua file yang dirubah
+> git status = untuk memeriksa file apa saja yang sudah masuk
+> git commit -m = untuk menuliskan pesan apa file yang dirubah
+> git log = untuk mengecek daftar commit
+> git checkout = untuk mengembalikan ke file yang sudah commit
+
+buka terminal : windows powershell, CMD/git bash.
+
+git itu ada dua arti :
+1. kontrol versi / inti dari konsep atau kegunaan git
+2. kolaborasi / kerjasama
+
+macam - macam branch :
+1  branch production = branch yang sudah rilis
+2. branch main/master = utama
+3. branch dev / development
+
+cara membuat branch :
+> git branch 
