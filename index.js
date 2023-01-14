@@ -17,4 +17,9 @@ app.post("/api/tulis", async (req, res) => {
   res.send(`berhasil menulis file`);
 });
 
+app.post("/api/tambah", async (req, res) => {
+  await appendFile("./skripsi.txt", req.body.data, "UTF8");
+  res.send(`berhasil menambah file`);
+});
+
 app.listen(3000, () => console.log("berhasil dijalankan"));
